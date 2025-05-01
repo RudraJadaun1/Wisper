@@ -182,4 +182,6 @@ Animations run non-blocking in `loop()` and cycle every 500 ms. Toggle with the 
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+![P1050579](https://github.com/user-attachments/assets/27e69d7a-fba9-43ed-810d-dcddd8e92143)
+
 
