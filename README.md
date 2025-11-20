@@ -89,7 +89,7 @@ Below are the schematic images and prototype photos for Wisper.
 <img width="549" height="671" alt="Screenshot 2025-11-20 103331" src="https://github.com/user-attachments/assets/18776ab6-0b6c-4780-855f-13ad1b6bad2c" />
 
 
-![Prototype Top]<img width="549" height="671" alt="Screenshot 2025-11-20 103331" src="https://github.com/user-attachments/assets/a7c6078d-b9a4-4147-a845-472d1de2b919" />
+<img width="549" height="671" alt="Screenshot 2025-11-20 103331" src="https://github.com/user-attachments/assets/a7c6078d-b9a4-4147-a845-472d1de2b919" />
 )  
 *Figure 3 — 3d model of pcb *
 <img width="1225" height="736" alt="Screenshot 2025-11-20 103347" src="https://github.com/user-attachments/assets/20fdc391-dc9e-43d3-90c8-b197e206f7d4" />
