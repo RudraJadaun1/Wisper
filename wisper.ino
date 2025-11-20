@@ -1,3 +1,4 @@
+//this code is written by rudra jadaun
 //© 2025 Rudra Jadaun. All rights reserved.
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
@@ -1099,3 +1100,4 @@ void loop() {
   
   delay(100);
 }
+
