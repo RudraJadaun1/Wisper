@@ -26,7 +26,8 @@
 13. [Customization & Configuration](#customization--configuration)
 14. [Troubleshooting](#troubleshooting)
 15. [Future Improvements](#future-improvements)
-16. [License](#license)
+16. [ New Features](#New-Features)
+17. [License](#license)
 
 ---
 
@@ -211,10 +212,78 @@ Animations run non-blocking in `loop()` and cycle every 500 ms. Toggle with the 
 - Theming support for web UI and OLED.
 - Bluetooth connectivity for phone notifications.
 - Sound alerts via buzzer.
+- 
+- ## New Features
+
+This section documents the additional features that were added after the original Wisper implementation. These extend the functionality of the middle and right hardware buttons, expand the OLED home screen, and introduce weather information and system diagnostics.
+
+1. Updated Time System (12-hour Format with AM/PM)
+
+The default home screen previously displayed time in a 24-hour format.
+It has now been upgraded to a 12-hour clock with AM and PM indicators, making the display easier to read at a glance.
+All countdowns and schedules continue working the same way, but the main clock follows the new format.
+
+2. Weather Display (via Web API)
+
+The home display now supports real-time weather data.
+Through a lightweight API fetch, the device displays:
+
+Temperature
+
+Atmospheric pressure
+
+Sunrise time
+
+Sunset time
+
+These values appear on the standard home screen in place of the original static information.
+
+Extended Weather Mode
+
+A secondary weather page is available where the OLED shows:
+
+Temperature
+
+Flow screen (larger temperature text)
+
+Humidity
+
+Wind speed at the bottom
+
+This mode can be cycled through using the existing home screen buttons without interrupting any active Pomodoro session or animation mode.
+
+3. System Information Mode (Middle Button)
+
+Pressing the middle hardware button now switches to a dedicated system info page.
+This page shows live diagnostic values:
+
+Device IP address
+
+Wi-Fi SSID
+
+RSSI (signal strength)
+
+Free heap memory
+
+System uptime in minutes/hours format
+
+This helps in debugging, checking Wi-Fi quality, and monitoring general device health during long runs.
+
+4. Robotic Eye Mode (Right Button - Updated)
+
+The last button still activates the robotic eye animation just like before.
+The following remain intact:
+
+Eye movements
+
+Blinks
+
+Sleep and wake cycles
+
+- 
 
 ## License
 
 This project is released under the MIT License. See [LICENSE](LICENSE) for details.
 ![P1050579](https://github.com/user-attachments/assets/27e69d7a-fba9-43ed-810d-dcddd8e92143)
-
 
