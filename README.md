@@ -80,28 +80,22 @@ Below are the schematic images and prototype photos for Wisper.
 > **Note:** I don't have mowby to buy a PCB currently, so I initially built the circuit on a prototype board ("zero PCB") for testing. The images below show the hand-built prototype and the schematic I used to lay out the final PCB.
 
 ### Schematic images
-![Schematic 1](<img width="1165" height="795" alt="Screenshot 2025-11-20 104217" src="https://github.com/user-attachments/assets/aedc2a14-b5fb-4afd-87ab-3d887104009a" />
-)  
+
 *Figure 1 — Main circuit schematic (ESP8266, SH1106, buttons, LED).*
+<img width="1165" height="795" alt="Screenshot 2025-11-20 104217" src="https://github.com/user-attachments/assets/66d0405f-bdd8-4278-bac8-4e17771b887e" />
 
-![Schematic 2](hardware/PCB/renders/schematic-2.png)  
 *Figure 2 — Close-up of power and button wiring.*
+<img width="549" height="671" alt="Screenshot 2025-11-20 103331" src="https://github.com/user-attachments/assets/18776ab6-0b6c-4780-855f-13ad1b6bad2c" />
 
-### Prototype / Photos
+
 ![Prototype Top]<img width="549" height="671" alt="Screenshot 2025-11-20 103331" src="https://github.com/user-attachments/assets/a7c6078d-b9a4-4147-a845-472d1de2b919" />
 )  
-*Figure 3 — Prototype assembled on zero PCB (top view).*
-<img width="1225" height="736" alt="Screenshot 2025-11-20 103347" src="https://github.com/user-attachments/assets/5c04761f-99a0-462d-be02-13df769106c3" />
+*Figure 3 — 3d model of pcb *
+<img width="1225" height="736" alt="Screenshot 2025-11-20 103347" src="https://github.com/user-attachments/assets/20fdc391-dc9e-43d3-90c8-b197e206f7d4" />
 
 
-![Prototype Bottom](hardware/PCB/renders/prototype-bottom.jpg)  
-*Figure 4 — Prototype underside showing wiring and soldering.*
-<img width="1232" height="722" alt="Screenshot 2025-11-20 103358" src="https://github.com/user-attachments/assets/8f16cfaa-7b42-45b5-8a76-9d4cdabf8066" />
-
-
----
-
-**How I added these files:** place your schematic images and photos in the repository folder `hardware/PCB/renders/` with the exact filenames used above (or update the filenames in the markdown to match your images).  
+*Figure 4- bottom side of 3d model of pcb *
+<img width="1232" height="722" alt="Screenshot 2025-11-20 103358" src="https://github.com/user-attachments/assets/ae541ee2-1233-4a0f-ab38-0863c204d026" />
 
 
 ## Software Dependencies
