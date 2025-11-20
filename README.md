@@ -15,17 +15,18 @@
 2. [Features](#features)
 3. [Hardware Components](#hardware-components)
 4. [Schematics](#Schematics).
-5. [Software Dependencies](#software-dependencies)
-6. [Wiring & Connections](#wiring--connections)
-7. [Setup Instructions](#setup-instructions)
-8. [Usage](#usage)
-9. [Code Structure](#code-structure)
-10. [Persistence & Data Storage](#persistence--data-storage)
-11. [Animation Mode Details](#animation-mode-details)
-12. [Customization & Configuration](#customization--configuration)
-13. [Troubleshooting](#troubleshooting)
-14. [Future Improvements](#future-improvements)
-15. [License](#license)
+5. [3D CAD model](#CAD-model).
+6. [Software Dependencies](#software-dependencies)
+7. [Wiring & Connections](#wiring--connections)
+8. [Setup Instructions](#setup-instructions)
+9. [Usage](#usage)
+10. [Code Structure](#code-structure)
+11. [Persistence & Data Storage](#persistence--data-storage)
+12. [Animation Mode Details](#animation-mode-details)
+13. [Customization & Configuration](#customization--configuration)
+14. [Troubleshooting](#troubleshooting)
+15. [Future Improvements](#future-improvements)
+16. [License](#license)
 
 ---
 
@@ -95,8 +96,14 @@ Below are the schematic images and prototype photos for Wisper.
 <img width="1225" height="736" alt="Screenshot 2025-11-20 103347" src="https://github.com/user-attachments/assets/20fdc391-dc9e-43d3-90c8-b197e206f7d4" />
 
 
-*Figure 4- bottom side of 3d model of pcb *
+*Figure 4- bottom side of 3d model of PCB *
 <img width="1232" height="722" alt="Screenshot 2025-11-20 103358" src="https://github.com/user-attachments/assets/ae541ee2-1233-4a0f-ab38-0863c204d026" />
+
+## CAD model
+Here are some CAD models that are supposed to be used when you have access to a 3d printer
+<img width="670" height="581" alt="Screenshot 2025-11-20 113117" src="https://github.com/user-attachments/assets/29a11f6e-c295-4f4e-98de-c566bc0a67aa" />
+You can find the file for the 3d model in the Scematics folder
+
 
 
 ## Software Dependencies
@@ -105,8 +112,8 @@ This project uses the following Arduino libraries:
 
 - `ESP8266WiFi` — for connecting to Wi-Fi.
 - `ESP8266WebServer` — for hosting HTTP endpoints.
-- `WiFiUdp` & `NTPClient` — for NTP time synchronization.
-- `ArduinoJson` — for serializing and deserializing state.
+- `WiFiUdp` & `NTPClient` — for NTP time synchronisation.
+- `ArduinoJson` — for serialising and deserialising state.
 - `SH1106Wire` — for driving the SH1106 OLED display.
 - `FS` (SPIFFS) — for file storage on flash.
 
